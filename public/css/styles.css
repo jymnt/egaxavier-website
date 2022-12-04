@@ -1,0 +1,116 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+    padding: 0 3rem;
+    /* position: fixed; */
+    width: 100%;
+    transition: 200ms ease-in-out background-color,
+                200ms ease-in-out box-shadow;
+}
+
+nav li a:hover{
+    background: #8d6e63;
+    opacity: 0.8 !important;
+}
+nav img{
+	float: left;
+	height: 110px;
+}
+.sidenav{
+    padding-left: 100%;
+    width : 100%;
+}
+.main-image-another{
+    width: 100%;
+}
+.active_nav{
+    background-color: #fff;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, .6);
+}
+.nav_height{
+    height: 150px;
+}
+.nav-extended{
+    height: 200px;
+}
+.active_nav .nav_links,
+.active_nav .main-logo {
+    background: rgb(103, 99, 94);
+    height: 50px;
+    float: top;
+}
+.active_nav .nav_links a:hover {
+    color: #fff;
+    
+}
+.slider h3,
+.slider h5,
+.lifestyle h3 {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+.contact-img{
+    width: 50px;
+    border-radius: 5px;
+    display: block;
+}
+.landing img{
+    position: center top;
+    filter : blur(0.8px) grayscale(0.6) ;
+    background:rgba(181, 25, 25, 0.5);
+}
+
+.parallax-container {
+    height: 100%;
+}
+
+.parallax img{
+    /* filter: grayscale(2); */
+    max-width:  150px;
+    opacity: 0.5 !important;
+    filter: grayscale(1);
+}
+
+.lifestyle img {
+    max-width: 350px;
+    border-radius: 5px;
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    
+} 
+.package img {
+    max-width: 100%;
+    border-radius: 5px;
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    
+} 
+.main-image{
+    width: 100%;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8)) blur(0.5px) grayscale(0.5);
+    transition: filter 2s;
+}
+.main-image:hover{
+    filter: grayscale(0);
+    
+}
+.portfolio img{
+    filter: drop-shadow(3px 3px 1px rgba(0,0,0,0.8));
+    border-radius: 2px;
+}
+.logo_sosmed{
+    height: 18px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr 0.1fr;
+    /* grid-gap: 1px 1px 1px; */
+}
+
+section, footer{
+    padding: 20px 0;
+}
