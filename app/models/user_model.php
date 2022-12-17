@@ -53,7 +53,7 @@ class User_model {
                 // var_dump($_SESSION['namaAdmin']); die();
                 // arahkan user ke...
                 $_SESSION['is_admin'] = true;
-                header("Location: " .BASEURL."/homeSI");
+                header("Location: " .BASEURL."/homesi");
             } else {
                 throw new Exception('Anda Bukan Admin');
             }

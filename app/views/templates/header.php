@@ -7,7 +7,7 @@
     <link type="text/css" rel="stylesheet" href="<?= BASEURL; ?>/css/materialize.min.css"  media="screen,projection"/>
 
     <!-- my CSS -->
-    <!-- <link rel="stylesheet" href="<?= BASEURL; ?>/css/bootstrap.css"> -->
+
     <link rel="stylesheet" href="<?= BASEURL; ?>/css/styles.css">
     <link rel="shortcut icon" href="<?=BASEURL;?>/img/Logo/2.png">
     <!--Let browser know website is optimized for mobile-->
